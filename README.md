@@ -58,7 +58,7 @@ Based on these income streams, total fund contributions were calculated, produci
 
 ![Table 5](Images/Table%205)
 
-### Defining the Retirement Goal
+## Defining the Retirement Goal
 Emily’s retirement goal targets a 'Choices' lifestyle, estimated at NZD 39,975 annually in 2024 values. To account for future inflation, a beta distribution was fitted using New Zealand inflation data from 1990 to 2025 (Stats NZ, 2025), as shown in Figure 4.
 
 ![Figure 4](Images/Figure%204)
@@ -79,7 +79,7 @@ The three sources provide a total available value of NZD 6,166,420. When subtrac
 # Section 3: Superannuation Fund Projection Methodology
 ## Model Overview
 This section presents the methodology used to project the future value of Emily’s superannuation fund by the time she retires at age 65. Based on the net contributions already calculated in Task 2, this task focuses on how uncertainties in salary growth and investment returns are modeled to estimate the accumulated fund balance under real-world variability.
-### Uncertainty Drivers in Fund Projection
+## Uncertainty Drivers in Fund Projection
 **1)	Salary Growth Variability**
 - Emily’s salary growth was modeled as a random variable following a normal distribution. Each year, a new growth rate was drawn based on historical averages and variability assumptions (see Section 2). This allows annual superannuation contributions to fluctuate, as salary growth directly influences contribution amounts.
 
@@ -91,7 +91,7 @@ This section presents the methodology used to project the future value of Emily�
 
 **4)	PIR Adjustment**
 - Fund returns were adjusted using Emily’s Prescribed Investor Rate (PIR), ensuring all projections reflect after-tax investment growth and accurately estimate the fund balance at retirement.
-### Year-by-Year Projection Structure
+## Year-by-Year Projection Structure
 For clear instructions about how the projection table was created in Excel, a sample table was provided below. (See Table 8 for the detailed formula)
 
 **Table 8**
