@@ -14,22 +14,22 @@ In conclusion, while Emily's current strategy is sufficient for her long-term go
 # Section 1: Emily’s Current Investment Allocation and Risk-Return Assessment
 The primary objective of the part is to evaluate Emily’s current investment allocations and assess the balance between risk and return. Based on each fund’s historic ten-year average growth rate (see Table 1), volatility measures, and allocation proportions, the analysis provides an initial evaluation of whether the current allocations can meet her needs.
 ### Fund Characteristics
-<img width="544" alt="Screenshot 2025-07-04 at 18 40 33" src="https://github.com/user-attachments/assets/fdda8410-1e9f-449e-8dc8-0192206cdc74" />
+![Table 1](Images/Table%201)
 
 *Note: Fund growth rates of HarbourSafe are calculated using the formula =NORM.INV(RAND(), 3.75%, 5.00%) is similar to Horizon and SkyHigh.*
 
 As shown in Figure 1, the HarbourSafe Fund shows steady growth, with returns ranging from -5% to 15%, reflecting low volatility and a focus on capital preservation. This makes it suitable for investors seeking consistent returns with minimal market fluctuations for its low-risk characteristics.
 
 
-![Entity Relationship Diagram here](Image/Figure 1)
+![Figure 1](Images/Figure%201)
 
 The Horizon Fund demonstrates moderate volatility, with returns between -16% and 30% (see Figure 2). It suits investors targeting higher long-term growth while managing short-term fluctuations, reflecting a balanced growth strategy.
 
-<img width="358" alt="Screenshot 2025-07-04 at 18 43 30" src="https://github.com/user-attachments/assets/99de3cd6-94f5-4695-8cf0-0eb66a24f926" />
+![Figure 2](Images/Figure%202)
 
 The SkyHigh Fund displays the widest volatility, from -40% to 58% (see Figure 3), representing high-risk, high-return characteristics. While offering strong potential growth in favorable markets, it carries significant downside risk.
 
-<img width="357" alt="Screenshot 2025-07-04 at 18 43 53" src="https://github.com/user-attachments/assets/429ab3cb-1d6f-4c73-8814-5d50f3ca4618" />
+![Figure 3](Images/Figure%203)
 
 ### Initial Evaluation of Emily’s Current Asset Allocation
 Emily’s allocation: 70% in low-to-moderate risk funds and 30% in high-risk assets, represents a moderate risk profile that balances stability with growth potential. Given her age (30), Emily has time to tolerate greater volatility for long-term growth. As the CFA Institute (2020) notes, mixing different risk levels can balance portfolio volatility while supporting long-term performance. A slightly more growth-oriented allocation may better align with her retirement goals while managing long-term inflation and rising costs.
@@ -39,26 +39,26 @@ This section evaluates whether Emily’s current and projected contributions are
 ### Total Income and Contribution Projection
 A 5,000-iteration Monte Carlo simulation was conducted to project Emily’s total income over her 35-year career, starting with an annual salary of $70,000. Salary growth was modeled using a normal distribution with a mean of 3.5% and a standard deviation of 0.7% (see Table 2). After applying New Zealand income tax and ACC levies (1%–2%) (IRD, 2025), net income was calculated annually.
 
-<img width="544" alt="Screenshot 2025-07-04 at 18 46 17" src="https://github.com/user-attachments/assets/e1b31d01-3c36-4c43-b3da-7cf87ff21d2d" />
+![Table 2](Images/Table%202)
 
 Superannuation contributions included 3% from Emily’s salary and a 3% employer match, both adjusted for Employer Superannuation Contribution Tax (ESCT) (see Table 3), which ranged from 30% to 39% depending on the salary band. The simulation projects an average total income of NZD 3,412,661, with a 95% interval of NZD 3,268,159 to NZD 3,573,413 (see Table 4).
 
-<img width="542" alt="Screenshot 2025-07-04 at 18 47 08" src="https://github.com/user-attachments/assets/9b741140-8b63-4090-aef0-511a36b24011" />
+![Table 3](Images/Table%203)
 
-<img width="545" alt="Screenshot 2025-07-04 at 18 47 38" src="https://github.com/user-attachments/assets/71f2e8e4-ba1f-4241-a310-7cc16bd5f624" />
+![Table 4](Images/Table%204)
 
 Based on these income streams, total fund contributions were calculated, producing an average contribution of NZD 245,257 by age 65, with a 95% interval of NZD 233,896 to NZD 257,336 (see Table 5).
 
-<img width="544" alt="Screenshot 2025-07-04 at 18 48 15" src="https://github.com/user-attachments/assets/f9b39b9b-2910-4dec-9a99-616e441598fb" />
+![Table 5](Images/Table%205)
 
 ### Defining the Retirement Goal
 Emily’s retirement goal targets a 'Choices' lifestyle, estimated at NZD 39,975 annually in 2024 values. To account for future inflation, a beta distribution was fitted using New Zealand inflation data from 1990 to 2025 (Stats NZ, 2025), as shown in Figure 4.
 
-<img width="364" alt="Screenshot 2025-07-04 at 18 48 39" src="https://github.com/user-attachments/assets/0c80c62c-e378-46d8-9848-e758960a794b" />
+![Figure 4](Images/Figure%204)
 
 Assuming Emily lives to age 90, simulated living costs were projected for both pre-retirement (ages 30–65) and retirement (ages 66–90). The average total living costs over her lifetime are estimated at NZD 2,349,193 and NZD 3,269,951, respectively (see Table 6).
 
-<img width="544" alt="Screenshot 2025-07-04 at 18 49 05" src="https://github.com/user-attachments/assets/2da09cab-b0a7-4c84-b4ec-4458fb8cdaa2" />
+![Table 6](Images/Table%206)
 
 ### Sufficiency Assessment
 The primary funding sources considered are:
@@ -67,7 +67,7 @@ The primary funding sources considered are:
 - Total average income throughout career, projected at NZD 3,414,470.
 The three sources provide a total available value of NZD 6,166,420. When subtracting from the NZD 5,618,875 retirement sum required, the remaining money that Emily has is NZD 547,622. The initial analysis suggests that her desired retirement lifestyle is satisfied when money relies solely on superannuation contributions, total fund contributions, and her income, adjusted for inflation.
 
-<img width="544" alt="Screenshot 2025-07-04 at 18 49 34" src="https://github.com/user-attachments/assets/208315be-ce91-4e3b-8db6-0b1689d6da99" />
+![Table 7](Images/Table%207)
 
 # Section 3: Superannuation Fund Projection Methodology
 ### Model Overview
@@ -159,7 +159,7 @@ Emily’s superannuation fund projection was conducted in two primary stages:
 
 ## Emily’s Retirement Planning: Scenario Analysis
 ### Base-Case Scenario: Original Plan
-<img width="430" alt="Screenshot 2025-07-04 at 19 12 43" src="https://github.com/user-attachments/assets/2cdd1625-0992-4303-8e14-c76d9a514f98" />
+![Figure 5](Images/Figure%205)
 
 The base-case scenario presents Emily’s retirement projection using the data outlined in the case background. As detailed in Figure 5, Emily is projected to meet and slightly exceed her comfortable retirement lifestyle needs, with a financial surplus that provides both economic comfort and a buffer. The 95% prediction intervals (see Figure 5) confirm a positive outlook, even under less favorable outcomes. 
 
@@ -167,7 +167,7 @@ The base-case scenario presents Emily’s retirement projection using the data o
 In this scenario, Emily achieves rapid career growth. Her salary reaches NZD 100,000 at age 35, NZD 145,000 at age 40 (Careers New Zealand, 2024), and NZD 245,000 at age 50, aligning with CTO remuneration levels (SEEK, 2025). The promotion path is based on accelerated progression strategies (Tang, 2022).
 The projections (see Table 10) show that, under these assumptions, Emily comfortably exceeds her retirement target. Her personal superannuation fund, combined with NZ pension, fully covers projected retirement expenses, even under lower-return conditions. This surplus allows for greater flexibility, including earlier retirement or lifestyle upgrades.
 
-<img width="425" alt="Screenshot 2025-07-04 at 19 13 24" src="https://github.com/user-attachments/assets/92c42adc-6e12-4503-a12c-b034b375afd2" />
+![Table 10](Images/Table%2010)
 
 ### Worst-Case Scenario: Early Job Loss
 This scenario assumes Emily loses her job at age 50. From age 51 onward, contributions stop entirely. The projections (see Table 10) reveal that early job loss substantially reduces her superannuation balance, creating a financial gap that leaves her unable to fully meet retirement expenses unless significant adjustments are made. She may need to reduce post-retirement living costs or pursue additional income sources. Even the upper bound of the 95% prediction interval remains insufficient to fully close the gap (see Table 10).
