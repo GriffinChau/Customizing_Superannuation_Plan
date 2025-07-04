@@ -62,9 +62,9 @@ Assuming Emily lives to age 90, simulated living costs were projected for both p
 
 ### Sufficiency Assessment
 The primary funding sources considered are:
-•	Inflation-adjusted New Zealand Government Superannuation (NZ Super) (see Table 7) is estimated to provide NZD 2,233,952 on average over the 25-year retirement period. It is forecasted using historical NZ Super growth data (2015–2075) through simulation.
-•	The average total fund balance available at age 65 is projected at NZD 517,998.
-•	Total average income throughout career, projected at NZD 3,414,470.
+- Inflation-adjusted New Zealand Government Superannuation (NZ Super) (see Table 7) is estimated to provide NZD 2,233,952 on average over the 25-year retirement period. It is forecasted using historical NZ Super growth data (2015–2075) through simulation.
+- The average total fund balance available at age 65 is projected at NZD 517,998.
+- Total average income throughout career, projected at NZD 3,414,470.
 The three sources provide a total available value of NZD 6,166,420. When subtracting from the NZD 5,618,875 retirement sum required, the remaining money that Emily has is NZD 547,622. The initial analysis suggests that her desired retirement lifestyle is satisfied when money relies solely on superannuation contributions, total fund contributions, and her income, adjusted for inflation.
 
 <img width="544" alt="Screenshot 2025-07-04 at 18 49 34" src="https://github.com/user-attachments/assets/208315be-ce91-4e3b-8db6-0b1689d6da99" />
