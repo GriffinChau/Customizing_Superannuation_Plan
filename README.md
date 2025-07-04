@@ -20,7 +20,7 @@ In conclusion, while Emily's current strategy is sufficient for her long-term go
 
 # Section 1: Emily’s Current Investment Allocation and Risk-Return Assessment
 The primary objective of the part is to evaluate Emily’s current investment allocations and assess the balance between risk and return. Based on each fund’s historic ten-year average growth rate (see Table 1), volatility measures, and allocation proportions, the analysis provides an initial evaluation of whether the current allocations can meet her needs.
-### Fund Characteristics
+## Fund Characteristics
 ![Table 1](Images/Table%201)
 
 *Note: Fund growth rates of HarbourSafe are calculated using the formula =NORM.INV(RAND(), 3.75%, 5.00%) is similar to Horizon and SkyHigh.*
@@ -38,12 +38,12 @@ The SkyHigh Fund displays the widest volatility, from -40% to 58% (see Figure 3)
 
 ![Figure 3](Images/Figure%203)
 
-### Initial Evaluation of Emily’s Current Asset Allocation
+## Initial Evaluation of Emily’s Current Asset Allocation
 Emily’s allocation: 70% in low-to-moderate risk funds and 30% in high-risk assets, represents a moderate risk profile that balances stability with growth potential. Given her age (30), Emily has time to tolerate greater volatility for long-term growth. As the CFA Institute (2020) notes, mixing different risk levels can balance portfolio volatility while supporting long-term performance. A slightly more growth-oriented allocation may better align with her retirement goals while managing long-term inflation and rising costs.
 
 # Section 2: Contribution Sufficiency Assessment
 This section evaluates whether Emily’s current and projected contributions are sufficient to meet her retirement goals. Following section 2 requirements, calculations here focus solely on the sum of fund contributions and exclude investment returns. 
-### Total Income and Contribution Projection
+## Total Income and Contribution Projection
 A 5,000-iteration Monte Carlo simulation was conducted to project Emily’s total income over her 35-year career, starting with an annual salary of $70,000. Salary growth was modeled using a normal distribution with a mean of 3.5% and a standard deviation of 0.7% (see Table 2). After applying New Zealand income tax and ACC levies (1%–2%) (IRD, 2025), net income was calculated annually.
 
 ![Table 2](Images/Table%202)
@@ -67,7 +67,7 @@ Assuming Emily lives to age 90, simulated living costs were projected for both p
 
 ![Table 6](Images/Table%206)
 
-### Sufficiency Assessment
+## Sufficiency Assessment
 The primary funding sources considered are:
 - Inflation-adjusted New Zealand Government Superannuation (NZ Super) (see Table 7) is estimated to provide NZD 2,233,952 on average over the 25-year retirement period. It is forecasted using historical NZ Super growth data (2015–2075) through simulation.
 - The average total fund balance available at age 65 is projected at NZD 517,998.
@@ -77,7 +77,7 @@ The three sources provide a total available value of NZD 6,166,420. When subtrac
 ![Table 7](Images/Table%207)
 
 # Section 3: Superannuation Fund Projection Methodology
-### Model Overview
+## Model Overview
 This section presents the methodology used to project the future value of Emily’s superannuation fund by the time she retires at age 65. Based on the net contributions already calculated in Task 2, this task focuses on how uncertainties in salary growth and investment returns are modeled to estimate the accumulated fund balance under real-world variability.
 ### Uncertainty Drivers in Fund Projection
 **1)	Salary Growth Variability**
@@ -150,12 +150,12 @@ Standard deviation|	$19,820|	$45,345|	$141,258|	$169,111
 95% P.I. on total income (lower)|	$111,824	|$80,492	|$56,155	|$313,172
 95% P.I. on total income (upper)|	$187,475	|$254,014	|$631,536	|$970,159
 
-### Model Limitations
+## Model Limitations
 This model assumes stable tax policies, no correlation between fund returns, and relies on historical data to estimate salary growth and fund return variability. While the inflation simulation (discussed in Section 2) was fitted using a Beta distribution, more advanced methods such as bootstrapping may further improve precision in modeling future inflation uncertainty.
 
 # Section 4: Emily’s Superannuation Future Value Multi-Scenario Projection Evaluation
 This section presents the application of the superannuation projection model described in Section 3, using Monte Carlo simulation to estimate Emily’s superannuation fund value at retirement under multiple scenarios. The model incorporates key financial variables previously established, including contributions (net of ESCT), fund allocations, growth rates, and volatilities.
-### Simulating the Future Value of Emily’s Superannuation Fund
+## Simulating the Future Value of Emily’s Superannuation Fund
 Emily’s superannuation fund projection was conducted in two primary stages:
 
 **Stage 1: Contributions and Fund Inputs**
