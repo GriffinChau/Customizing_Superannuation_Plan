@@ -1,9 +1,16 @@
 # Customizing Emily’s Superannuation Plan: Strategic Analysis and Recommendations for Achieving a Comfortable Retirement 
 This report presents a comprehensive assessment of Emily's current superannuation strategy and its alignment with her long-term retirement goals.
 
-The report is structured into four main sections. Section 1 evaluates the current fund allocation and assesses its risk-return profile. Section 2 examines the sufficiency of Emily's contributions based on her projected income, taxation, and superannuation inputs. Section 3 presents the projection methodology used to estimate the future value of Emily's superannuation fund under uncertainty. Finally, section 4 applies multi-scenario analysis to evaluate how different career paths and income shocks may impact Emily's retirement outcome and recommends fund allocation adjustments to strengthen financial resilience.
+The report is structured into four main sections. 
+- Section 1 evaluates the current fund allocation and assesses its risk-return profile.
+- Section 2 examines the sufficiency of Emily's contributions based on her projected income, taxation, and superannuation inputs.
+- Section 3 presents the projection methodology used to estimate the future value of Emily's superannuation fund under uncertainty.
+- Section 4 applies multi-scenario analysis to evaluate how different career paths and income shocks may impact Emily's retirement outcome and recommends fund allocation adjustments to strengthen financial resilience.
 
-The superannuation portfolio is diversified across three funds: 40% in the conservative HarbourSafe Bonds Fund, 30% in the Balanced Horizon Mix Fund, and 30% in the growth-oriented SkyHigh Equity Growth Fund.
+The superannuation portfolio is diversified across three funds: 
+- 40% in the conservative HarbourSafe Bonds Fund.
+- 30% in the Balanced Horizon Mix Fund.
+- 30% in the growth-oriented SkyHigh Equity Growth Fund.
 
 The methodology uses salary projections and expected fund performance; the analysis estimates her total contributions and portfolio growth until age 65. Additional projections for government pension and annual living costs from 30 to 90 were also conducted to estimate whether the remaining money is sufficient for the retirement goal.
 
@@ -73,13 +80,16 @@ The three sources provide a total available value of NZD 6,166,420. When subtrac
 ### Model Overview
 This section presents the methodology used to project the future value of Emily’s superannuation fund by the time she retires at age 65. Based on the net contributions already calculated in Task 2, this task focuses on how uncertainties in salary growth and investment returns are modeled to estimate the accumulated fund balance under real-world variability.
 ### Uncertainty Drivers in Fund Projection
-1)	Salary Growth Variability
+**1)	Salary Growth Variability**
 - Emily’s salary growth was modeled as a random variable following a normal distribution. Each year, a new growth rate was drawn based on historical averages and variability assumptions (see Section 2). This allows annual superannuation contributions to fluctuate, as salary growth directly influences contribution amounts.
-2)	Net Contributions to Fund
-- As salary growth fluctuates, Emily’s annual salary determines her applicable ESCT rate, based on IRD’s 2025 thresholds. Although ESCT brackets remain fixed, salary changes create variability in employer contributions after ESCT deductions. 
-3)	Superannuation Fund Return Variability
+
+**2)	Net Contributions to Fund**
+- As salary growth fluctuates, Emily’s annual salary determines her applicable ESCT rate, based on IRD’s 2025 thresholds. Although ESCT brackets remain fixed, salary changes create variability in employer contributions after ESCT deductions.
+
+**3)	Superannuation Fund Return Variability**
 - Investment returns were projected based on Emily’s portfolio allocation across HarbourSafe, Horizon, and SkyHigh. Each fund’s return was modeled using the historical mean and standard deviation. In each trial, fund returns were independently drawn from normal distributions, with portfolio returns calculated as weighted averages (see Table 1).
-4)	PIR Adjustment
+
+**4)	PIR Adjustment**
 - Fund returns were adjusted using Emily’s Prescribed Investor Rate (PIR), ensuring all projections reflect after-tax investment growth and accurately estimate the fund balance at retirement.
 ### Year-by-Year Projection Structure
 For clear instructions about how the projection table was created in Excel, a sample table was provided below. (See Table 8 for the detailed formula)
