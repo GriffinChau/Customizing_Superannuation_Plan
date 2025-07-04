@@ -183,3 +183,6 @@ Findings indicate that Emily’s current portfolio is projected to meet her reti
 To address potential shortfalls and enhance the ability to resist risks, the report recommended reallocating investments using an optimization model. Emily's current strategy, when considering the New Zealand Government Superannuation, shows a reasonable foundation.
 
 However, making some strategic adjustments to her fund allocations is advisable to ensure financial security and flexibility.
+
+---
+**Collaboration in this project** *: Ken Xia, Johnson Shan, Quynh Chi Le*
