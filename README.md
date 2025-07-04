@@ -21,7 +21,7 @@ The primary objective of the part is to evaluate Emily’s current investment al
 As shown in Figure 1, the HarbourSafe Fund shows steady growth, with returns ranging from -5% to 15%, reflecting low volatility and a focus on capital preservation. This makes it suitable for investors seeking consistent returns with minimal market fluctuations for its low-risk characteristics.
 
 
-<img width="359" alt="Screenshot 2025-07-04 at 18 42 53" src="https://github.com/user-attachments/assets/61fdf9d6-7d62-4f95-a5de-c4390b608b6f" />
+![Entity Relationship Diagram here](Image/Figure 1)
 
 The Horizon Fund demonstrates moderate volatility, with returns between -16% and 30% (see Figure 2). It suits investors targeting higher long-term growth while managing short-term fluctuations, reflecting a balanced growth strategy.
 
